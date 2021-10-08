@@ -52,3 +52,5 @@ int main()
 //time complexity depend on pivot element
 //best : when pivot is median  O(nlogn)
 //worst: when pivot is last element (o(n2))
+
+
