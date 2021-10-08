@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+//merging function
 void merge(int arr,int l,int mid,int r)
 {
 	int n1=mid-l+1;
@@ -35,6 +36,7 @@ while(j<n2)
 }
 
 }
+//divide and conquer
 void mergeSort(int arr[],int l,int r)
 {
 	if(l<r)
