@@ -78,3 +78,6 @@ public:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
+
+TC:((lenth of longest string)* (no.of queries))
+SC:(217*No.of nodes);
